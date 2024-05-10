@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wdth,wght@6..12,112.5,200..1000&family=Rubik:wght@300..900&display=swap&family=Nova+Square&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #000000;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #545454;
+    border-radius: 4px;
+    transition: 1s;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #717171;
+    transition: 1s;
+}
+
+body {
+    background-color: black;
+}
+
+.rubik {
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.nova-square {
+    font-family: "Nova Square", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}  
+
+.nunito {
+    font-family: "Nunito Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100,
+        "YTLC" 500;
+}
+
+.card{
+    text-decoration: none;
+}
+
+#custom{
+    width: 45%;
+}
+@media only screen and (max-width: 1000px) {
+    #custom{
+        width: 95%;
+    }
+}
+
+.serviceCard{
+    background: none;
+    border: 2px solid #5AE4AA;
+    transition: 0.5s;
+    background-color: #000000;
+}
+
+.serviceCard:hover{
+    border-color: white;
+    transform:scale(1.05,1.05) translateY(-15px);
+    box-shadow: 0px 0px 30px 1px rgb(61, 61, 61);
+    z-index: 1;
+}
+
+.solutionCard{
+    transition: 0.5s;
+}
+
+.solutionCard:hover{
+    transform: scale(1.03,1.03) translateY(-20px);
+    z-index: 1;
+}
+
+.solutionImg{
+    border: 1px solid rgb(92, 92, 92);border-radius: 10px;
+    transition: 0.5s;
+}
